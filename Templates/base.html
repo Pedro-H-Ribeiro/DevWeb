@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='normalize.css') }}">
+
+</head>
+
+<body id="bodyhome">
+
+    <div class="botao">''
+        <a href="/">Home</a>
+        <a href="/quemsomos" class="quemm">Quem somos</a>
+        <a href="/contato" class="cont">Contato</a>
+    </div>
+
+    <div class="logo"><img src="{{ url_for('static', filename= 'logo.png') }}"></div>
+    <!-- <img src="{{ url_for('static', filename= 'logo.png') }}"> -->
+    
+
+    {% block conteudo %}
+
+    {% endblock %}
+
+    <h4>Todos os direitos reservados</h4>
+       <!--  <hr class="fundo">
+        <h5>
+            Telefone:(12)97532-87319<br>
+            Telefone:(12)98121-42145
+        </h5> -->
+    
+</body>
+
+</html>

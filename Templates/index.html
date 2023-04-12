@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block conteudo %}
+    
+    <div class="Container">
+        <style>
+            body{
+                background-image: url(../static/fundo.png);
+            }
+        </style>
+    
+        <div class="capa"><img src="{{ url_for('static', filename= 'capa.png') }}" width="900"></div>
+
+
+        <h2>Sobre a universidade</h2>
+
+        <p>Lorem <b>ipsum dolor</b> sit amet consectetur adipisicing elit. Nihil, libero id saepe reiciendis a aliquid consequuntur accusantium tempora praesentium provident ipsa? Fugit necessitatibus repellat quia quo cumque delectus similique optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, reprehenderit velit, ipsa fuga ratione delectus numquam illo saepe officiis dolore ex temporibus architecto iusto a similique recusandae doloremque aperiam. Natus.</p> 
+
+        <p>Lorem <b>ipsum dolor</b> sit amet consectetur adipisicing elit. Nihil, libero id saepe reiciendis a aliquid consequuntur accusantium tempora praesentium provident ipsa? Fugit necessitatibus repellat quia quo cumque delectus similique optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, reprehenderit velit, ipsa fuga ratione delectus numquam illo saepe officiis dolore ex temporibus architecto iusto a similique recusandae doloremque aperiam. Natus.</p>
+        
+
+    </div>
+
+{% endblock %}
+
