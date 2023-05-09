@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block conteudo %}
+
+    <div class="Container">
+
+        <style>
+            body{
+                background-image: url(../static/fundo2.png);
+            }
+        </style>
+
+
+
+        <h2>Entre em contato</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <hr>
+
+            <form method="post" action="/contatos">
+
+                <div class="email">
+                    Seu e-mail: <br>
+                    <input type="email" name="email" required><br>
+                </div>
+
+                <div class="assunto">
+                    Assunto: <br>
+                    <input type="text" name="assunto" required><br>
+                </div>
+                
+                <div class="descricao">
+                    Descrição: <br>
+                    <input type="text" name="descricao" required><br>
+                </div>
+                
+                <div class="btnn">
+                    <input type="submit">
+                </div>
+                
+            
+            </form>
+    
+    </div>
+
+{% endblock %}

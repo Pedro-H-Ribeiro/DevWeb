@@ -1,6 +1,7 @@
-/* body{
-    background-image: url(Imagens/fundo.png);
-} */
+body{
+    align-items: center;
+    justify-content: center;
+}
 hr{
     margin-left: 500px;
     margin-right: 500px;
@@ -37,7 +38,6 @@ p{
 h4{
     text-align: center;
     margin-top: 50px;
-
 }
 .quemm{
     margin-left: 10px;
@@ -53,15 +53,28 @@ h5{
     margin-top:10px;
     margin-left: 1230px;
 }
-.mail{
+.email{
     margin-left: 500px;
     margin-right: 500px;
 }
-.desc{
+.descricao{
     margin-left: 500px;
     margin-right: 500px;
 }
-.ass{
+.assunto{
     margin-left: 500px;
     margin-right: 500px;
+}
+.btnn{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.conteudo{
+    /* margin-left: 500px;
+    margin-right: 500px; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
 }
